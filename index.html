@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devin - The AI Software Engineer</title>
+    <meta name="description" content="Devin is an autonomous AI software engineer that can write, run and test code. Get started building with your AI engineering teammate.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 40 40" fill="none">
+                        <circle cx="8" cy="8" r="3" fill="#4F9CF9"/>
+                        <circle cx="20" cy="8" r="3" fill="#4F9CF9"/>
+                        <circle cx="32" cy="8" r="3" fill="#4F9CF9"/>
+                        <circle cx="8" cy="20" r="3" fill="#4F9CF9"/>
+                        <circle cx="20" cy="20" r="3" fill="#4F9CF9"/>
+                        <circle cx="32" cy="20" r="3" fill="#4F9CF9"/>
+                        <circle cx="8" cy="32" r="3" fill="#4F9CF9"/>
+                        <circle cx="20" cy="32" r="3" fill="#4F9CF9"/>
+                        <circle cx="32" cy="32" r="3" fill="#4F9CF9"/>
+                    </svg>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="#" class="nav-link">Enterprise</a></li>
+                    <li><a href="#" class="nav-link">Pricing</a></li>
+                    <li><a href="#" class="nav-link">Customers</a></li>
+                    <li><a href="#" class="nav-link">View more +</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="#" class="login-link">Login ↗</a>
+                <button class="get-started-btn" type="button">Get started</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1 class="hero-title">
+                    <span class="hero-title-main">Devin, the AI</span>
+                    <span class="hero-title-main">software</span>
+                    <span class="hero-title-main">engineer</span>
+                </h1>
+                
+                <button class="start-building-btn" type="button">Start building</button>
+                
+                <p class="hero-description">
+                    Crush your backlog <span class="description-highlight">with your personal AI engineering team.</span>
+                </p>
+                
+                <div class="workflow-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Ticket</h3>
+                            <p class="step-description">Integrate Slack, Linear, and Jira</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Plan</h3>
+                            <p class="step-description">Quickly review Devin's proposal</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Test</h3>
+                            <p class="step-description">Devin tests changes by itself</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="mockup-container">
+                    <div class="mockup-window">
+                        <!-- Slack/Linear Integration Mockup -->
+                        <div class="mockup-header">
+                            <div class="mockup-tabs">
+                                <div class="tab active-tab">
+                                    <span class="tab-icon">#</span>
+                                    <span>slack</span>
+                                </div>
+                                <div class="tab">
+                                    <span class="tab-icon">◆</span>
+                                    <span>Linear</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mockup-content">
+                            <div class="channel-header">
+                                <span class="channel-name"># frontend</span>
+                                <span class="channel-meta">Frontend discussions, UI updates & implementation...</span>
+                                <div class="status-indicators">
+                                    <div class="status-badge green">40</div>
+                                    <div class="status-badge">📍</div>
+                                    <div class="status-badge">Canvas</div>
+                                </div>
+                            </div>
+                            
+                            <div class="channel-controls">
+                                <button class="channel-btn">+ Add channels</button>
+                                <select class="time-filter">
+                                    <option>Today</option>
+                                </select>
+                            </div>
+                            
+                            <div class="messages">
+                                <div class="message">
+                                    <div class="message-avatar">S</div>
+                                    <div class="message-content">
+                                        <div class="message-header">
+                                            <span class="message-author">Silas</span>
+                                            <span class="message-time">2:50 PM</span>
+                                        </div>
+                                        <p class="message-text">@Devin can you make the knowledge fields always editable?</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="message">
+                                    <div class="message-avatar devin-avatar">⚡</div>
+                                    <div class="message-content">
+                                        <div class="message-header">
+                                            <span class="message-author">Devin</span>
+                                            <span class="message-time">2:51 PM</span>
+                                        </div>
+                                        <p class="message-text">@Silas of course! Creating a session and making the changes. See <a href="#" class="message-link">here</a>.</p>
+                                        <div class="message-emoji">💯</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="message-input">
+                                <div class="input-toolbar">
+                                    <button class="toolbar-btn">B</button>
+                                    <button class="toolbar-btn">I</button>
+                                    <button class="toolbar-btn">S</button>
+                                    <button class="toolbar-btn">🔗</button>
+                                    <button class="toolbar-btn">≡</button>
+                                    <button class="toolbar-btn">•</button>
+                                    <button class="toolbar-btn">🔢</button>
+                                    <button class="toolbar-btn">💬</button>
+                                </div>
+                                <div class="input-area">
+                                    <input type="text" placeholder="Message" class="message-input-field">
+                                    <div class="input-actions">
+                                        <button class="input-action">A+</button>
+                                        <button class="input-action">🙂</button>
+                                        <button class="input-action">@</button>
+                                        <button class="input-action">📷</button>
+                                        <button class="input-action">📊</button>
+                                        <button class="input-action">🎯</button>
+                                        <button class="send-btn">➤</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Scripts (non-functional as requested) -->
+    <script>
+        // All buttons are non-functional as requested
+        // This is just for visual demonstration
+        console.log('Devin.ai front-end replica loaded');
+    </script>
+</body>
+</html>
